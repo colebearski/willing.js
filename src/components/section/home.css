@@ -1,0 +1,118 @@
+body {
+  font-family: monospace;
+  width: 100%;
+}
+
+p {
+  margin-left: 30px;
+  margin-bottom: -10px;
+  font-size: 20px;
+}
+
+#name {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  margin-left: 40px;
+  display: block;
+}
+
+.letter {
+  font-size: 150px;
+  line-height: 135px;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  mix-blend-mode: color-burn;
+  position: relative;
+  /* transition: top ease 0.1s; */
+  /* transition-delay: 2s; */
+  opacity: 0.9s;
+}
+
+@keyframes triggerLetter {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 50px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.letter:hover {
+  animation: triggerLetter ease 0.5s;
+}
+
+#c {
+  color: #ef5350;
+}
+
+/* #c:hover */
+
+#o {
+  color: #ab47bc;
+}
+
+#l {
+  color: #651fff;
+}
+
+#e {
+  color: #3949ab;
+}
+
+#p {
+  color: #2196f3;
+}
+
+#e2 {
+  color: #00bcd4;
+}
+
+#d {
+  color: #4caf50;
+}
+
+#e3 {
+  color: #ffc107;
+}
+
+#r {
+  color: #ff80ab;
+}
+
+#s {
+  color: #ff8f00;
+}
+
+#e4 {
+  color: skyblue;
+}
+
+#n {
+  color: burlywood;
+}
+
+@keyframes letterMove {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 50px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.hovered {
+  animation: letterMove 3s;
+}
+
+::selection {
+  background: #b39ddb;
+}
