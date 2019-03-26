@@ -26,12 +26,16 @@ p {
   font-weight: 800;
   mix-blend-mode: color-burn;
   position: relative;
-  /* transition: top ease 0.1s; */
-  /* transition-delay: 2s; */
-  opacity: 0.9s;
+  transition: top ease 0.1s;
+  transition-delay: 2s;
+  opacity: 0.9;
 }
 
-@keyframes triggerLetter {
+.hover {
+  animation: ease trigger 3s;
+}
+
+@keyframes trigger {
   0% {
     top: 0px;
   }
@@ -43,15 +47,25 @@ p {
   }
 }
 
-.letter:hover {
-  animation: triggerLetter ease 0.5s;
+.hoverTwo {
+  animation: ease triggerTwo 3s;
+}
+
+@keyframes triggerTwo {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 50px;
+  }
+  100% {
+    top: 0px;
+  }
 }
 
 #c {
   color: #ef5350;
 }
-
-/* #c:hover */
 
 #o {
   color: #ab47bc;
@@ -95,22 +109,6 @@ p {
 
 #n {
   color: burlywood;
-}
-
-@keyframes letterMove {
-  0% {
-    top: 0px;
-  }
-  50% {
-    top: 50px;
-  }
-  100% {
-    top: 0px;
-  }
-}
-
-.hovered {
-  animation: letterMove 3s;
 }
 
 ::selection {
