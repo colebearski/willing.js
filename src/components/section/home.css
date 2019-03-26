@@ -7,6 +7,7 @@ p {
   margin-left: 30px;
   margin-bottom: -10px;
   font-size: 20px;
+  color: #f4f4f4;
 }
 
 #name {
@@ -63,52 +64,8 @@ p {
   }
 }
 
-#c {
-  color: #ef5350;
-}
-
-#o {
-  color: #ab47bc;
-}
-
-#l {
-  color: #651fff;
-}
-
-#e {
-  color: #3949ab;
-}
-
-#p {
-  color: #2196f3;
-}
-
-#e2 {
-  color: #00bcd4;
-}
-
-#d {
-  color: #4caf50;
-}
-
-#e3 {
-  color: #ffc107;
-}
-
-#r {
-  color: #ff80ab;
-}
-
-#s {
-  color: #ff8f00;
-}
-
-#e4 {
-  color: skyblue;
-}
-
-#n {
-  color: burlywood;
+.letterName {
+  color: #4169e1;
 }
 
 ::selection {

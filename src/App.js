@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <div className="container">
+        <div id="banner" className="container">
           <Home />
         </div>
       </div>
