@@ -4,7 +4,7 @@ import React, { Component } from "react";
 // https://www.alispit.tel/#/
 // https://codepen.io/aspittel/pen/xPgaGJ
 // CSS
-import "./home.css";
+import "./../css/home.css";
 
 class Home extends Component {
   state = {
@@ -39,93 +39,93 @@ class Home extends Component {
     let activeTwo = this.state.hoverTwo ? "hoverTwo" : "";
 
     return (
-      // <div class="banner_container">
-      <div id="content">
-        <div id="name">
-          <span className="logo">
-            <span
-              className={"letter letterName " + active}
-              onMouseEnter={this.onMouseEnter}
-            >
-              C
+      <div id="banner" class="container">
+        <div id="content">
+          <div id="name">
+            <span className="logo">
+              <span
+                className={"letter letterName " + active}
+                onMouseEnter={this.onMouseEnter}
+              >
+                C
+              </span>
+              <span
+                className={"letter letterName " + activeTwo}
+                onMouseEnter={this.onMouseEnterTwo}
+              >
+                O
+              </span>
+              <span
+                className={"letter letterName " + active}
+                onMouseEnter={this.onMouseEnter}
+              >
+                L
+              </span>
+              <span
+                className={"letter letterName " + activeTwo}
+                onMouseEnter={this.onMouseEnterTwo}
+              >
+                E
+              </span>
             </span>
-            <span
-              className={"letter letterName " + activeTwo}
-              onMouseEnter={this.onMouseEnterTwo}
-            >
-              O
-            </span>
-            <span
-              className={"letter letterName " + active}
-              onMouseEnter={this.onMouseEnter}
-            >
-              L
-            </span>
-            <span
-              className={"letter letterName " + activeTwo}
-              onMouseEnter={this.onMouseEnterTwo}
-            >
-              E
-            </span>
-          </span>
 
-          <span className="logo">
-            <span
-              className={"letter letterName " + active}
-              onMouseEnter={this.onMouseEnter}
-            >
-              P
+            <span className="logo">
+              <span
+                className={"letter letterName " + active}
+                onMouseEnter={this.onMouseEnter}
+              >
+                P
+              </span>
+              <span
+                className={"letter letterName " + activeTwo}
+                onMouseEnter={this.onMouseEnterTwo}
+              >
+                E
+              </span>
+              <span
+                className={"letter letterName " + active}
+                onMouseEnter={this.onMouseEnter}
+              >
+                D
+              </span>
+              <span
+                className={"letter letterName " + activeTwo}
+                onMouseEnter={this.onMouseEnterTwo}
+              >
+                E
+              </span>
+              <span
+                className={"letter letterName " + active}
+                onMouseEnter={this.onMouseEnter}
+              >
+                R
+              </span>
+              <span
+                className={"letter letterName " + activeTwo}
+                onMouseEnter={this.onMouseEnterTwo}
+              >
+                S
+              </span>
+              <span
+                className={"letter letterName " + active}
+                onMouseEnter={this.onMouseEnter}
+              >
+                E
+              </span>
+              <span
+                className={"letter letterName " + activeTwo}
+                onMouseEnter={this.onMouseEnterTwo}
+              >
+                N
+              </span>
             </span>
-            <span
-              className={"letter letterName " + activeTwo}
-              onMouseEnter={this.onMouseEnterTwo}
-            >
-              E
-            </span>
-            <span
-              className={"letter letterName " + active}
-              onMouseEnter={this.onMouseEnter}
-            >
-              D
-            </span>
-            <span
-              className={"letter letterName " + activeTwo}
-              onMouseEnter={this.onMouseEnterTwo}
-            >
-              E
-            </span>
-            <span
-              className={"letter letterName " + active}
-              onMouseEnter={this.onMouseEnter}
-            >
-              R
-            </span>
-            <span
-              className={"letter letterName " + activeTwo}
-              onMouseEnter={this.onMouseEnterTwo}
-            >
-              S
-            </span>
-            <span
-              className={"letter letterName " + active}
-              onMouseEnter={this.onMouseEnter}
-            >
-              E
-            </span>
-            <span
-              className={"letter letterName " + activeTwo}
-              onMouseEnter={this.onMouseEnterTwo}
-            >
-              N
-            </span>
-          </span>
+          </div>
+
+          <p className="home_para">Software Engineer</p>
+          <p className="home_para">I really like writing code</p>
+          <p className="home_para">Especially in JavaScript</p>
         </div>
-
-        <p>Software Engineer</p>
-        <p>I really like writing code.</p>
-        <p>Especially in JavaScript.</p>
       </div>
-      // </div>
     );
   }
 }

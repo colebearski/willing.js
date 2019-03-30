@@ -10,6 +10,19 @@ p {
   color: #f4f4f4;
 }
 
+.home_para {
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #f4f4f4;
+}
+
+#banner {
+  background: url("./../../images/home.png") no-repeat center center/cover;
+  max-width: 100%;
+  background-position-y: 75%;
+}
+
 #name {
   margin-top: 50px;
   margin-bottom: 30px;

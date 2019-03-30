@@ -1,0 +1,57 @@
+.aboutLetter {
+  font-size: 100px;
+  /* line-height: 135px; */
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  mix-blend-mode: color-burn;
+  position: relative;
+  transition: top ease 0.1s;
+  transition-delay: 2s;
+  opacity: 0.9;
+}
+
+.aboutLetterName {
+  color: #4169e1;
+}
+
+.techHeader {
+  font-size: 50px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  position: relative;
+  color: #fff;
+  margin-left: 30px;
+}
+
+.techSkills {
+  font-size: 50px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  position: relative;
+  color: #fff;
+  margin-left: 30px;
+}
+
+.about_para {
+  margin-left: 30px;
+  font-size: 20px;
+  color: #f4f4f4;
+  font-weight: 600;
+}
+
+#tldr {
+  margin-top: -50px;
+}
+
+#banner_about {
+  background: url("./../../images/about.png") no-repeat center center/cover;
+  max-width: 100%;
+  /* background-position: center;
+  background-position-y: 25%;
+  background-position-x: 100%; */
+}
+
+.bio {
+  transform: rotate(1turn);
+  transition-duration: 3s;
+}
