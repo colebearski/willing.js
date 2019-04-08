@@ -14,8 +14,10 @@ const styles = {
     justifyContent: "center"
   },
   p: {
-    color: "rgb(110, 120, 134)",
-    fontSize: "2em",
+    color: "#4169e1",
+    opacity: "0.9",
+    mixBlendMode: "color-burn",
+    fontSize: "2.1em",
     fontWeight: "500"
   }
 };
@@ -27,11 +29,27 @@ class Contact extends Component {
         <div id="banner" style={styles.banner}>
           <Typography style={styles.p} component="p">
             Get in Touch <br />
-            <i class="fab fa-linkedin fa-3x" />
+            <a href="//linkedin.com/in/cole-pedersen/" target="_blank">
+              {" "}
+              <i
+                class="fab fa-linkedin fa-3x"
+                style={{ color: "#007bb6", padding: "20px", margin: "10px" }}
+              />
+            </a>
             <span> </span>
-            <i class="fab fa-github fa-3x" />
+            <a href="//github.com/colebearski" target="_blank">
+              <i
+                class="fab fa-github fa-3x"
+                style={{ color: "#333", padding: "20px", margin: "10px" }}
+              />
+            </a>
             <span> </span>
-            <i class="fal fa-envelope fa-3x" />
+            <a href="mailto:cole.pedersen@gmail.com?subject=Say Hello!">
+              <i
+                class="fal fa-envelope fa-3x "
+                style={{ color: "#F1502F", padding: "20px", margin: "10px" }}
+              />
+            </a>
             <span> </span>
           </Typography>
         </div>
