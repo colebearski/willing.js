@@ -1,0 +1,15 @@
+.projectLetter {
+  font-size: 100px;
+  /* line-height: 135px; */
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  mix-blend-mode: color-burn;
+  position: relative;
+  transition: top ease 0.1s;
+  transition-delay: 2s;
+  opacity: 0.9;
+}
+
+.projectLetterName {
+  color: #4169e1;
+}
