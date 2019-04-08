@@ -20,23 +20,12 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/" component={Main} />
-            <Route exact path="/about" component={Profile} />
-            <Route exact path="/work" component={Work} />
-            <Route exact path="/contact" component={Contact} />
+            <Route exact path="" component={Profile} />
+            <Route exact path="" component={Work} />
+            <Route exact path="" component={Contact} />
           </Switch>
         </Router>
       </Fragment>
-
-      // <Router>
-      //   <div className="App">
-      //     <Header />
-      //     <Switch>
-      //       <Route exact path="/" component={Home} />
-      //       <Route exact path="/about" component={About} />
-      //       <Route exact path="/projects" component={Projects} />
-      //     </Switch>
-      //   </div>
-      // </Router>
     );
   }
 }

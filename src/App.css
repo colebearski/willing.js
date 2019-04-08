@@ -36,6 +36,10 @@
   justify-content: flex-start;
 }
 
+.Profile-header {
+  /* background: url("./images/about.png") no-repeat center center/cover; */
+}
+
 .AppBar {
   padding: 10px 0;
   background: #fff !important;
@@ -50,9 +54,8 @@
 }
 
 #banner {
-  background: #6ce1d8;
-  background: -webkit-linear-gradient(to right, #1a7fe3, #6ce1d8);
-  background: linear-gradient(to right, #1a7fe3, #6ce1d8);
+  background: url("./images/home.png") no-repeat center center/cover;
+  background-position-y: 0%;
 }
 
 /*
